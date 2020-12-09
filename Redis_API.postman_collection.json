@@ -1,0 +1,334 @@
+{
+	"id": "403f54c2-6ae5-6024-1802-7939b08dd4cf",
+	"name": "Redis_API",
+	"description": "API list for Nodejs Assignment Backend\n\n/api/redis_info\n/api/add\n/api/redis_monitor\n/api/redis_list\n/api/ping\n/api/del",
+	"order": [
+		"0a561572-3f13-6bc3-b5f2-a51985c46e29",
+		"1b3d4d02-24a9-dd3c-5e48-2e15ed77712d",
+		"caf57b97-fc9b-037a-504c-45227e74b382",
+		"6326c340-6dd5-5e33-adb2-bf0d4fdf7afc",
+		"66d47f05-5962-bbf1-8ff8-d5eb465e4dc6",
+		"f350320d-3bc5-acfd-52f4-6f5bafc07c80"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1607536951008,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0a561572-3f13-6bc3-b5f2-a51985c46e29",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5555/api/add",
+			"queryParams": [
+				{
+					"key": "host",
+					"value": "re2dis-16449.c81.us-east-1-2.ec2.cloud.redislabs.com",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "port",
+					"value": "1647",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "fvAl14Xm80IbjRAZcjz8JmNrGQZsCe4Z",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "403f54c2-6ae5-6024-1802-7939b08dd4cf",
+			"data": [
+				{
+					"key": "host",
+					"value": "redis-16449.c81.us-east-1-2.ec2.cloud.redislabs.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port",
+					"value": "16449",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "fvAl14Xm80IbjRAZcjz8JmNrGQZsCe4Z",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "api/add",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1607537215557,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1b3d4d02-24a9-dd3c-5e48-2e15ed77712d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5555/api/del",
+			"queryParams": [
+				{
+					"key": "host",
+					"value": "re2dis-16449.c81.us-east-1-2.ec2.cloud.redislabs.com",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "port",
+					"value": "1647",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "fvAl14Xm80IbjRAZcjz8JmNrGQZsCe4Z",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "md5",
+					"value": "d9992b1d09258c2286d60c837353ac05",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1607538058070,
+			"name": "api/del",
+			"description": "",
+			"collectionId": "403f54c2-6ae5-6024-1802-7939b08dd4cf",
+			"responses": []
+		},
+		{
+			"id": "6326c340-6dd5-5e33-adb2-bf0d4fdf7afc",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5555/api/redis_monitor?md5=d9992b1d09258c2286d60c837353ac05",
+			"queryParams": [
+				{
+					"key": "md5",
+					"value": "d9992b1d09258c2286d60c837353ac05",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "403f54c2-6ae5-6024-1802-7939b08dd4cf",
+			"data": [
+				{
+					"key": "md",
+					"value": "dddddd",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "api/redis_monitor",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1607537392352,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "66d47f05-5962-bbf1-8ff8-d5eb465e4dc6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5555/api/redis_list",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "403f54c2-6ae5-6024-1802-7939b08dd4cf",
+			"data": null,
+			"dataMode": "params",
+			"name": "api/redis_list",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1607537549173,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "caf57b97-fc9b-037a-504c-45227e74b382",
+			"headers": "",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5555/api/redis_info?md5=d9992b1d09258c2286d60c837353ac05",
+			"queryParams": [
+				{
+					"key": "md5",
+					"value": "d9992b1d09258c2286d60c837353ac05",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "403f54c2-6ae5-6024-1802-7939b08dd4cf",
+			"data": null,
+			"dataMode": "params",
+			"name": "api/redis_info",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1607537281598,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f350320d-3bc5-acfd-52f4-6f5bafc07c80",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:5555/api/ping?port=16449&password=fvAl14Xm80IbjRAZcjz8JmNrGQZsCe4Z&host=redis-16449.c81.us-east-1-2.ec2.cloud.redislabs.com",
+			"queryParams": [
+				{
+					"key": "port",
+					"value": "16449",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "fvAl14Xm80IbjRAZcjz8JmNrGQZsCe4Z",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "host",
+					"value": "redis-16449.c81.us-east-1-2.ec2.cloud.redislabs.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "403f54c2-6ae5-6024-1802-7939b08dd4cf",
+			"data": [
+				{
+					"key": "host",
+					"value": "redis-16449.c81.us-east-1-2.ec2.cloud.redislabs.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "port",
+					"value": "16449",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "fvAl14Xm80IbjRAZcjz8JmNrGQZsCe4Z",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "api/ping",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1607537860739,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
